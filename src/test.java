@@ -15,6 +15,7 @@ public class test {
 	   double change = ((paidAmount - cost)*100.0);
 	   change = Math.ceil(change);
 	   System.out.println(change);
+	   System.out.println ("");
 	   if(change > 0)
 	   {
 		   dollars=(int) (change/100);
